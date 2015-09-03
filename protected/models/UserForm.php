@@ -36,7 +36,8 @@ class UserForm extends CFormModel{
 	return [
 	    'name' => 'Имя',
 	    'surname' => 'Фамилия',
-	    'email' => 'Электронная почта'
+	    'email' => 'Электронная почта',
+	    'pass' => 'Пароль'
 	];
     }
     
@@ -46,6 +47,7 @@ class UserForm extends CFormModel{
 	    return Yii::app()->user->login($identity);
 	else{
 	    $this->addError('email', $identity->errorMessage);
+	    $this->addError('pass', 'Неправильный адресс почты или пароль');
 	    return FALSE;
 	}
     }

@@ -10,6 +10,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'application.widgets.*'
 	),
     'modules'=>array(
         'gii'=>array(
@@ -25,6 +26,8 @@ return array(
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
+		    	'class' => 'User',
+			'loginUrl' => [	'/login' ]
 		),
 		// uncomment the following to use a MySQL database
 		'db'=>array(

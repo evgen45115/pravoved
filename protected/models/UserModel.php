@@ -33,6 +33,13 @@ class UserModel extends CActiveRecord{
 	return 'users';
     }
     
+    public function relations() {
+	return [
+	    'info' => [ self::BELONGS_TO, 'UserInfo', [ 'id' => 'user_id' ] ]
+	];
+    }
+
+
     public function beforeSave() {
 	if($this->isNewRecord){
 	    $this->date_add = new CDbExpression ('NOW()');
