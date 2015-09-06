@@ -38,7 +38,7 @@
 	});
 	
 	function check(val){
-	    if(val == 'client')
+	    if(val == '<?php echo UserModel::TYPE_CLIENT;?>')
 		$('#surname').hide();
 	    else
 	        $('#surname').show();

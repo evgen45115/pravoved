@@ -39,6 +39,29 @@ class UserModel extends CActiveRecord{
 	];
     }
 
+    public function jurist(){
+	$criteria = new CDbCriteria();
+	$criteria->condition = '`type` = :type';
+	$criteria->params = [
+	    ':type' => self::TYPE_JURIST
+	];
+	
+	$this->getDbCriteria()->mergeWith($criteria);
+	
+	return $this;
+    }
+    
+    public function client(){
+	$criteria = new CDbCriteria();
+	$criteria->condition = '`type` = :type';
+	$criteria->params = [
+	    ':type' => self::TYPE_CLIENT
+	];
+	
+	$this->getDbCriteria()->mergeWith($criteria);
+	
+	return $this;
+    }
 
     public function beforeSave() {
 	if($this->isNewRecord){

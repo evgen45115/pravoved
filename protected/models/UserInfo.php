@@ -20,6 +20,10 @@ class UserInfo extends CActiveRecord
 	{
 		return 'user_info';
 	}
+	
+	public function fio(){
+	    return $this->surname . ' ' . $this->name . ' ' . $this->otchestvo;
+	}
 
 	public static function model($className=__CLASS__)
 	{

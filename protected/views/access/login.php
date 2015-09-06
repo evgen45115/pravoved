@@ -19,3 +19,4 @@
 
 	<?php echo CHtml::endForm(); ?>
     </div>
+<?php echo CHtml::link('Регистрация', [ 'access/registration' ])?>

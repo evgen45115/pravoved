@@ -7,7 +7,6 @@
     <meta property="og:description" content="Увольняют с работы? Не платят алименты? Попали в ДТП? Решите свою проблему на pravoved.ru! Быстро, удобно, качественно, без посредников.">
 <link rel="stylesheet" type="text/css" href="/css/main.css" />
 </head>
-    <?=  Yii::app()->createAbsoluteUrl('site/index');?>
     <body class="index-public">
     
         <div id="darkbg" class="nodisplay"></div>
@@ -22,7 +21,8 @@
                     <span class="city-consultations">Консультация юриста в 
                     <a class="city-name" href="javascript:void(0);">. Ямполь</a>
                     </span>
-                    </p>            <div class="profile unregistered"><a id="btn-login" class="newLogin newGreen" href="javascript:void(0);">Войти</a><div class="loginAndOpenIdHolder loginPopupForm nodisplay">
+                    </p>            
+	    <div class="profile unregistered"><a id="btn-login" class="newLogin newGreen" href="<?php echo Yii::app()->createUrl('access/login');?>">Войти</a><div class="loginAndOpenIdHolder loginPopupForm nodisplay">
                             <div class="loginAndOpenIdContainer">
                             <div class="loginAndOpenId">
                                 <div class="lefted">
@@ -42,27 +42,24 @@
                                                 <label for="rememberme" class="optional">Запомнить меня</label></div>
 
                                             <input type="submit" name="sbutton" id="loginSubmit" value="Войти" class="newButton green" />
-                                            <p class="hint"><a class="reg" href="/registration/">Регистрация</a></p></fieldset></form></div><div class="righted">
-                                    <span class="title">Войти через популярные сервисы</span><ul class="OAuthLabels">
-                                        <li class="vk"><a href="javascript:void(0);">ВКонтакте</a></li>
-                                        <li class="mr"><a href="javascript:void(0);">Mail.ru</a></li>
-                                        <li class="fb"><a href="javascript:void(0);">Facebook</a></li>
-                                        <li class="ya"><a href="javascript:void(0);">Яндекс</a></li>
-                                        <li class="g"><a href="javascript:void(0);">Google</a></li>
-                                        <li class="ok"><a href="javascript:void(0);">Одноклассники</a></li>
-                                    </ul></div>
+                                            <p class="hint"><a class="reg" href="/registration/">Регистрация</a></p></fieldset></form></div><div class="righted">						
+				</div>
                             </div>
                         </div>
-                    </div></div>            <ul class="newMenu unregistered"><li class="order menuClickable">
-					<span><a href="/newquestion/">Задать вопрос</a></span>
-				</li><li class=""><a href="/newphoneconsultation/">Заказать звонок</a></li><li class=""><a href="/newdocument/">Заказать документ</a></li><li class=""><a href="/lawyers/">Наши юристы</a></li><li class="dropdown">
-					<span>Еще</span>
+                    </div></div>            
+		    <ul class="newMenu unregistered">
+			<li class="order menuClickable"><span><?php echo CHtml::link('Задать вопрос', [ 'question/add' ])?></span></li>
+			<li class=""><a href="/newphoneconsultation/">Заказать звонок</a></li>
+			<li class=""><a href="/newdocument/">Заказать документ</a></li>
+			<li class=""><?php echo CHtml::link('Наши юристы', [ 'site/jurist' ]);?></li>
+			<li class="dropdown"><span>Еще</span>
 					<ul class="hidden">
-						<li><a href="/questions/">Вопросы</a></li>
-						<li><a data-url="/faq/">Как это работает</a></li>
-						<li><a href="/contacts/">Контакты</a></li>
+					    <li><?php echo CHtml::link('Вопросы', [ 'question/' ]);?></li>
+					    <li><a data-url="/faq/">Как это работает</a></li>
+					    <li><a href="/contacts/">Контакты</a></li>
 					</ul>
-				</li></ul>            <div class="newSearch">
+				</li></ul>            
+		    <div class="newSearch">
                 <form id="headerSearchForm" method="get" action="/search/#toFilter">
                     <input type='text' name="q" placeholder='Поиск по всем вопросам'>
                     <span class="launchSearch submit">Поиск</span>

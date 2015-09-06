@@ -147,3 +147,2458 @@ Stack trace:
 REQUEST_URI=/index.php/cabinet
 HTTP_REFERER=http://pravoved/index.php/access/login/
 ---
+2015/09/05 20:15:33 [error] [exception.CException] exception 'CException' with message 'QuestionModel содержит неверное правило проверки. Правило должно иметь имя и включать элементы для проверки.' in C:\OpenServer\domains\pravoved\framework\base\CModel.php:289
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\base\CModel.php(260): CModel->createValidators()
+#1 C:\OpenServer\domains\pravoved\framework\base\CModel.php(304): CModel->getValidators('title')
+#2 C:\OpenServer\domains\pravoved\framework\web\helpers\CHtml.php(1513): CModel->isAttributeRequired('title')
+#3 C:\OpenServer\domains\pravoved\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(Object(QuestionModel), 'title', Array)
+#4 C:\OpenServer\domains\pravoved\protected\views\question\add.php(17): CActiveForm->labelEx(Object(QuestionModel), 'title')
+#5 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(126): require('C:\OpenServer\d...')
+#6 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\OpenServer\d...', Array, true)
+#7 C:\OpenServer\domains\pravoved\framework\web\CController.php(869): CBaseController->renderFile('C:\OpenServer\d...', Array, true)
+#8 C:\OpenServer\domains\pravoved\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#9 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(13): CController->render('add', Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#15 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#16 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/question/add
+---
+2015/09/05 20:31:16 [error] [exception.CException] exception 'CException' with message 'QuestionModel содержит неверное правило проверки. Правило должно иметь имя и включать элементы для проверки.' in C:\OpenServer\domains\pravoved\framework\base\CModel.php:289
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\base\CModel.php(260): CModel->createValidators()
+#1 C:\OpenServer\domains\pravoved\framework\base\CModel.php(304): CModel->getValidators('title')
+#2 C:\OpenServer\domains\pravoved\framework\web\helpers\CHtml.php(1513): CModel->isAttributeRequired('title')
+#3 C:\OpenServer\domains\pravoved\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(Object(QuestionModel), 'title', Array)
+#4 C:\OpenServer\domains\pravoved\protected\views\question\add.php(17): CActiveForm->labelEx(Object(QuestionModel), 'title')
+#5 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(126): require('C:\OpenServer\d...')
+#6 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\OpenServer\d...', Array, true)
+#7 C:\OpenServer\domains\pravoved\framework\web\CController.php(869): CBaseController->renderFile('C:\OpenServer\d...', Array, true)
+#8 C:\OpenServer\domains\pravoved\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#9 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(13): CController->render('add', Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#15 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#16 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/question/add
+---
+2015/09/05 20:33:17 [error] [exception.CException] exception 'CException' with message 'QuestionModel содержит неверное правило проверки. Правило должно иметь имя и включать элементы для проверки.' in C:\OpenServer\domains\pravoved\framework\base\CModel.php:289
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\base\CModel.php(260): CModel->createValidators()
+#1 C:\OpenServer\domains\pravoved\framework\base\CModel.php(304): CModel->getValidators('title')
+#2 C:\OpenServer\domains\pravoved\framework\web\helpers\CHtml.php(1513): CModel->isAttributeRequired('title')
+#3 C:\OpenServer\domains\pravoved\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(Object(QuestionModel), 'title', Array)
+#4 C:\OpenServer\domains\pravoved\protected\views\question\add.php(17): CActiveForm->labelEx(Object(QuestionModel), 'title')
+#5 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(126): require('C:\OpenServer\d...')
+#6 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\OpenServer\d...', Array, true)
+#7 C:\OpenServer\domains\pravoved\framework\web\CController.php(869): CBaseController->renderFile('C:\OpenServer\d...', Array, true)
+#8 C:\OpenServer\domains\pravoved\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#9 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(13): CController->render('add', Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#15 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#16 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/question/add
+---
+2015/09/05 20:33:55 [error] [exception.CException] exception 'CException' with message 'QuestionModel содержит неверное правило проверки. Правило должно иметь имя и включать элементы для проверки.' in C:\OpenServer\domains\pravoved\framework\base\CModel.php:289
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\base\CModel.php(260): CModel->createValidators()
+#1 C:\OpenServer\domains\pravoved\framework\base\CModel.php(304): CModel->getValidators('title')
+#2 C:\OpenServer\domains\pravoved\framework\web\helpers\CHtml.php(1513): CModel->isAttributeRequired('title')
+#3 C:\OpenServer\domains\pravoved\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(Object(QuestionModel), 'title', Array)
+#4 C:\OpenServer\domains\pravoved\protected\views\question\add.php(17): CActiveForm->labelEx(Object(QuestionModel), 'title')
+#5 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(126): require('C:\OpenServer\d...')
+#6 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\OpenServer\d...', Array, true)
+#7 C:\OpenServer\domains\pravoved\framework\web\CController.php(869): CBaseController->renderFile('C:\OpenServer\d...', Array, true)
+#8 C:\OpenServer\domains\pravoved\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#9 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(13): CController->render('add', Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#15 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#16 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/question/add
+---
+2015/09/05 20:34:35 [error] [exception.CException] exception 'CException' with message 'QuestionModel содержит неверное правило проверки. Правило должно иметь имя и включать элементы для проверки.' in C:\OpenServer\domains\pravoved\framework\base\CModel.php:289
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\base\CModel.php(260): CModel->createValidators()
+#1 C:\OpenServer\domains\pravoved\framework\base\CModel.php(304): CModel->getValidators('title')
+#2 C:\OpenServer\domains\pravoved\framework\web\helpers\CHtml.php(1513): CModel->isAttributeRequired('title')
+#3 C:\OpenServer\domains\pravoved\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(Object(QuestionModel), 'title', Array)
+#4 C:\OpenServer\domains\pravoved\protected\views\question\add.php(17): CActiveForm->labelEx(Object(QuestionModel), 'title')
+#5 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(126): require('C:\OpenServer\d...')
+#6 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\OpenServer\d...', Array, true)
+#7 C:\OpenServer\domains\pravoved\framework\web\CController.php(869): CBaseController->renderFile('C:\OpenServer\d...', Array, true)
+#8 C:\OpenServer\domains\pravoved\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#9 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(13): CController->render('add', Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#15 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#16 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/question/add
+---
+2015/09/05 20:35:04 [error] [exception.CException] exception 'CException' with message 'QuestionModel содержит неверное правило проверки. Правило должно иметь имя и включать элементы для проверки.' in C:\OpenServer\domains\pravoved\framework\base\CModel.php:289
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\base\CModel.php(260): CModel->createValidators()
+#1 C:\OpenServer\domains\pravoved\framework\base\CModel.php(304): CModel->getValidators('title')
+#2 C:\OpenServer\domains\pravoved\framework\web\helpers\CHtml.php(1513): CModel->isAttributeRequired('title')
+#3 C:\OpenServer\domains\pravoved\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(Object(QuestionModel), 'title', Array)
+#4 C:\OpenServer\domains\pravoved\protected\views\question\add.php(17): CActiveForm->labelEx(Object(QuestionModel), 'title')
+#5 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(126): require('C:\OpenServer\d...')
+#6 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\OpenServer\d...', Array, true)
+#7 C:\OpenServer\domains\pravoved\framework\web\CController.php(869): CBaseController->renderFile('C:\OpenServer\d...', Array, true)
+#8 C:\OpenServer\domains\pravoved\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#9 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(13): CController->render('add', Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#15 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#16 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/question/add
+---
+2015/09/05 20:35:13 [error] [exception.CException] exception 'CException' with message 'QuestionModel содержит неверное правило проверки. Правило должно иметь имя и включать элементы для проверки.' in C:\OpenServer\domains\pravoved\framework\base\CModel.php:289
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\base\CModel.php(260): CModel->createValidators()
+#1 C:\OpenServer\domains\pravoved\framework\base\CModel.php(304): CModel->getValidators('title')
+#2 C:\OpenServer\domains\pravoved\framework\web\helpers\CHtml.php(1513): CModel->isAttributeRequired('title')
+#3 C:\OpenServer\domains\pravoved\framework\web\widgets\CActiveForm.php(600): CHtml::activeLabelEx(Object(QuestionModel), 'title', Array)
+#4 C:\OpenServer\domains\pravoved\protected\views\question\add.php(17): CActiveForm->labelEx(Object(QuestionModel), 'title')
+#5 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(126): require('C:\OpenServer\d...')
+#6 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\OpenServer\d...', Array, true)
+#7 C:\OpenServer\domains\pravoved\framework\web\CController.php(869): CBaseController->renderFile('C:\OpenServer\d...', Array, true)
+#8 C:\OpenServer\domains\pravoved\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#9 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(13): CController->render('add', Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#15 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#16 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/question/add
+---
+2015/09/06 16:31:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 16:31:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 16:32:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 16:32:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 16:32:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "quiestion/add".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('quiestion/add')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/quiestion/add
+---
+2015/09/06 16:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 16:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 16:32:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 16:32:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:16:27 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group IS NULL' at line 1. Выполнявшийся SQL-запрос: SELECT * FROM `question_option` `t` WHERE group IS NULL.
+2015/09/06 17:16:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group IS NULL' at line 1. The SQL statement executed was: SELECT * FROM `question_option` `t` WHERE group IS NULL' in C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\OpenServer\domains\pravoved\protected\models\QuestionOptionModel.php(62): CActiveRecord->findAll('group IS NULL')
+#4 C:\OpenServer\domains\pravoved\protected\views\question\add.php(38): QuestionOptionModel->getSelectHtml('QuestionModel', Array)
+#5 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(126): require('C:\OpenServer\d...')
+#6 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\OpenServer\d...', Array, true)
+#7 C:\OpenServer\domains\pravoved\framework\web\CController.php(869): CBaseController->renderFile('C:\OpenServer\d...', Array, true)
+#8 C:\OpenServer\domains\pravoved\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#9 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(20): CController->render('add', Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#15 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#16 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#18 {main}
+REQUEST_URI=/question/add
+---
+2015/09/06 17:17:45 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "QuestionOptionModel.cost".' in C:\OpenServer\domains\pravoved\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(145): CComponent->__get('cost')
+#1 C:\OpenServer\domains\pravoved\protected\models\QuestionOptionModel.php(81): CActiveRecord->__get('cost')
+#2 C:\OpenServer\domains\pravoved\protected\models\QuestionOptionModel.php(69): QuestionOptionModel->_getOptionBlock('QuestionModel[o...', Array, Object(QuestionOptionModel))
+#3 C:\OpenServer\domains\pravoved\protected\views\question\add.php(38): QuestionOptionModel->getSelectHtml('QuestionModel', Array)
+#4 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(126): require('C:\OpenServer\d...')
+#5 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\OpenServer\d...', Array, true)
+#6 C:\OpenServer\domains\pravoved\framework\web\CController.php(869): CBaseController->renderFile('C:\OpenServer\d...', Array, true)
+#7 C:\OpenServer\domains\pravoved\framework\web\CController.php(782): CController->renderPartial('add', Array, true)
+#8 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(20): CController->render('add', Array)
+#9 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#14 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#15 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#17 {main}
+REQUEST_URI=/question/add
+---
+2015/09/06 17:18:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:18:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:19:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:19:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:20:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:20:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:21:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:21:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:29:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:29:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:30:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:30:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:44:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 17:44:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:39:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:39:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:39:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:39:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:42:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/newMainPage/blog-entry.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/newMainP...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/newMainPage/blog-entry.png
+HTTP_REFERER=http://pravoved/index.php?XDEBUG_SESSION_START=netbeans-xdebug
+---
+2015/09/06 18:42:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/newMainPage/blog-entry2.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/newMainP...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/newMainPage/blog-entry2.png
+HTTP_REFERER=http://pravoved/index.php?XDEBUG_SESSION_START=netbeans-xdebug
+---
+2015/09/06 18:42:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/newMainPage/blog-entry3.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/newMainP...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/newMainPage/blog-entry3.png
+HTTP_REFERER=http://pravoved/index.php?XDEBUG_SESSION_START=netbeans-xdebug
+---
+2015/09/06 18:42:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:42:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/newMainPage/press-rbk.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/newMainP...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/newMainPage/press-rbk.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:42:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/newMainPage/other-service-call.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/newMainP...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/newMainPage/other-service-call.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:42:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/newMainPage/blue-rub.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/newMainP...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/newMainPage/blue-rub.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:42:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/newMainPage/main.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/newMainP...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/newMainPage/main.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:42:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/newMainPage/other-service-docs.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/newMainP...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/newMainPage/other-service-docs.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/newMainPage/quality-guarantee.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/newMainP...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/newMainPage/quality-guarantee.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/newMainPage/qg-doc.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/newMainP...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/newMainPage/qg-doc.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/newMainPage/green-rub.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/newMainP...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/newMainPage/green-rub.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/newMainPage/all-reviews.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/newMainP...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/newMainPage/all-reviews.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:42:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/newMainPage/reviews-loader.gif".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/newMainP...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/newMainPage/reviews-loader.gif
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:42:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:44:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:44:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:45:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:45:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:45:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:45:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:46:05 [warning] [application] Не удалось присвоить небезопасный атрибут "options" класса "QuestionModel".
+2015/09/06 18:46:05 [error] [exception.CDbException] exception 'CDbException' with message 'Невозможно добавить запись active record в базу данных из-за того, что она не новая.' in C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php:1073
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(71): CActiveRecord->insert(Array)
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(1100): QuestionModel->afterSave()
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#3 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(18): CActiveRecord->save()
+#4 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#5 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#9 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#10 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 18:49:04 [warning] [application] Не удалось присвоить небезопасный атрибут "options" класса "QuestionModel".
+2015/09/06 18:49:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:54:31 [warning] [application] Не удалось присвоить небезопасный атрибут "options" класса "QuestionModel".
+2015/09/06 18:54:32 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "QuestionModel.sum".' in C:\OpenServer\domains\pravoved\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(145): CComponent->__get('sum')
+#1 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(19): CActiveRecord->__get('sum')
+#2 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#3 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#7 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#8 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 18:55:05 [warning] [application] Не удалось присвоить небезопасный атрибут "options" класса "QuestionModel".
+2015/09/06 18:55:05 [error] [exception.CException] exception 'CException' with message 'В классе QuestionModel и его поведениях не найден метод или замыкание с именем "getSum".' in C:\OpenServer\domains\pravoved\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getSum', Array)
+#1 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(19): CActiveRecord->__call('getSum', Array)
+#2 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(19): QuestionModel->getSum()
+#3 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#4 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#8 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#9 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#11 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 18:55:53 [warning] [application] Не удалось присвоить небезопасный атрибут "options" класса "QuestionModel".
+2015/09/06 18:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 18:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 19:01:14 [error] [php] Invalid argument supplied for foreach() (C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php:93)
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): QuestionController->runAction()
+#2 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): QuestionController->runActionWithFilters()
+#3 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): QuestionController->run()
+#4 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\OpenServer\domains\pravoved\index.php(11): CWebApplication->run()
+REQUEST_URI=/question/add
+2015/09/06 19:01:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 19:01:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 19:02:07 [error] [php] include(QuestionOption.php): failed to open stream: No such file or directory (C:\OpenServer\domains\pravoved\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(395): spl_autoload_call()
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(182): model()
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(230): CActiveFinder->getModel()
+#3 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#4 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(912): CActiveFinder->__construct()
+#5 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(280): SummaryQuestionOption->getActiveFinder()
+#6 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(143): SummaryQuestionOption->getRelated()
+#7 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(94): SummaryQuestionOption->__get()
+#8 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#9 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): QuestionController->runAction()
+#12 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): QuestionController->runActionWithFilters()
+#13 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): QuestionController->run()
+#14 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\OpenServer\domains\pravoved\index.php(11): CWebApplication->run()
+REQUEST_URI=/question/add
+2015/09/06 19:02:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 19:02:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 19:04:58 [error] [exception.CDbException] exception 'CDbException' with message 'Отношение "opt" не было определено в active record классе "QuestionModel".' in C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php:226
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(284): CActiveFinder->buildJoinTree(Object(CJoinElement), 'opt', Array)
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), 'activeOptions')
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(912): CActiveFinder->__construct(Object(QuestionModel), 'activeOptions')
+#3 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(280): CActiveRecord->getActiveFinder('activeOptions')
+#4 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('activeOptions')
+#5 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(91): CActiveRecord->__get('activeOptions')
+#6 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#7 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#8 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#12 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#13 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#15 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 19:05:20 [error] [exception.CDbException] exception 'CDbException' with message 'Отношение "opt" не было определено в active record классе "QuestionModel".' in C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php:226
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(284): CActiveFinder->buildJoinTree(Object(CJoinElement), 'opt', Array)
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), 'activeOptions')
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(912): CActiveFinder->__construct(Object(QuestionModel), 'activeOptions')
+#3 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(280): CActiveRecord->getActiveFinder('activeOptions')
+#4 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('activeOptions')
+#5 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(91): CActiveRecord->__get('activeOptions')
+#6 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#7 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#8 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#12 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#13 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#15 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 19:05:30 [error] [exception.CDbException] exception 'CDbException' with message 'Отношение "opt" не было определено в active record классе "QuestionModel".' in C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php:226
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(284): CActiveFinder->buildJoinTree(Object(CJoinElement), 'opt', Array)
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), 'activeOptions')
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(912): CActiveFinder->__construct(Object(QuestionModel), 'activeOptions')
+#3 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(280): CActiveRecord->getActiveFinder('activeOptions')
+#4 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(181): CActiveRecord->getRelated('activeOptions')
+#5 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(91): CActiveRecord->__isset('activeOptions')
+#6 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#7 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#8 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#12 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#13 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#15 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 19:08:55 [error] [php] include(QuestionOption.php): failed to open stream: No such file or directory (C:\OpenServer\domains\pravoved\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(395): spl_autoload_call()
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(182): model()
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(230): CActiveFinder->getModel()
+#3 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#4 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(912): CActiveFinder->__construct()
+#5 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(280): QuestionModel->getActiveFinder()
+#6 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(143): QuestionModel->getRelated()
+#7 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(92): QuestionModel->__get()
+#8 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#9 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): QuestionController->runAction()
+#12 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): QuestionController->runActionWithFilters()
+#13 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): QuestionController->run()
+#14 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\OpenServer\domains\pravoved\index.php(11): CWebApplication->run()
+REQUEST_URI=/question/add
+2015/09/06 19:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 19:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 19:10:43 [error] [php] include(QuestionOption.php): failed to open stream: No such file or directory (C:\OpenServer\domains\pravoved\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(395): spl_autoload_call()
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(182): model()
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(230): CActiveFinder->getModel()
+#3 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#4 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(912): CActiveFinder->__construct()
+#5 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(280): QuestionModel->getActiveFinder()
+#6 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(143): QuestionModel->getRelated()
+#7 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(92): QuestionModel->__get()
+#8 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#9 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): QuestionController->runAction()
+#12 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): QuestionController->runActionWithFilters()
+#13 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): QuestionController->run()
+#14 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\OpenServer\domains\pravoved\index.php(11): CWebApplication->run()
+REQUEST_URI=/question/add
+2015/09/06 19:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 19:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 19:11:16 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opt.option' in 'on clause'. Выполнявшийся SQL-запрос: SELECT `opt`.`id` AS `t1_c0`, `opt`.`name` AS `t1_c1`, `opt`.`description` AS `t1_c2`, `opt`.`group` AS `t1_c3`, `opt`.`cost` AS `t1_c4` FROM `question_option` `opt`  LEFT OUTER JOIN `summary_question_option` `activeOptions` ON (`activeOptions`.`id`=`opt`.`option`) WHERE (`activeOptions`.`question`=:ypl0).
+2015/09/06 19:11:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opt.option' in 'on clause'. The SQL statement executed was: SELECT `opt`.`id` AS `t1_c0`, `opt`.`name` AS `t1_c1`, `opt`.`description` AS `t1_c2`, `opt`.`group` AS `t1_c3`, `opt`.`cost` AS `t1_c4` FROM `question_option` `opt`  LEFT OUTER JOIN `summary_question_option` `activeOptions` ON (`activeOptions`.`id`=`opt`.`option`) WHERE (`activeOptions`.`question`=:ypl0)' in C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(808): CDbCommand->queryAll()
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(509): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(163): CJoinElement->lazyFind(Object(QuestionModel))
+#4 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(281): CActiveFinder->lazyFind(Object(QuestionModel))
+#5 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('opt')
+#6 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(92): CActiveRecord->__get('opt')
+#7 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#8 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#9 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#13 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#14 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 19:12:08 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opt.option' in 'on clause'. Выполнявшийся SQL-запрос: SELECT `opt`.`id` AS `t1_c0`, `opt`.`name` AS `t1_c1`, `opt`.`description` AS `t1_c2`, `opt`.`group` AS `t1_c3`, `opt`.`cost` AS `t1_c4` FROM `question_option` `opt`  LEFT OUTER JOIN `summary_question_option` `activeOptions` ON (`activeOptions`.`id`=`opt`.`option`) WHERE (`activeOptions`.`question`=:ypl0).
+2015/09/06 19:12:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opt.option' in 'on clause'. The SQL statement executed was: SELECT `opt`.`id` AS `t1_c0`, `opt`.`name` AS `t1_c1`, `opt`.`description` AS `t1_c2`, `opt`.`group` AS `t1_c3`, `opt`.`cost` AS `t1_c4` FROM `question_option` `opt`  LEFT OUTER JOIN `summary_question_option` `activeOptions` ON (`activeOptions`.`id`=`opt`.`option`) WHERE (`activeOptions`.`question`=:ypl0)' in C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(808): CDbCommand->queryAll()
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(509): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(163): CJoinElement->lazyFind(Object(QuestionModel))
+#4 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(281): CActiveFinder->lazyFind(Object(QuestionModel))
+#5 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('opt')
+#6 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(92): CActiveRecord->__get('opt')
+#7 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#8 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#9 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#13 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#14 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 19:13:04 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opt.option' in 'on clause'. Выполнявшийся SQL-запрос: SELECT `opt`.`id` AS `t1_c0`, `opt`.`name` AS `t1_c1`, `opt`.`description` AS `t1_c2`, `opt`.`group` AS `t1_c3`, `opt`.`cost` AS `t1_c4` FROM `question_option` `opt`  LEFT OUTER JOIN `summary_question_option` `activeOptions` ON (`activeOptions`.`id`=`opt`.`option`) WHERE (`activeOptions`.`question`=:ypl0).
+2015/09/06 19:13:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opt.option' in 'on clause'. The SQL statement executed was: SELECT `opt`.`id` AS `t1_c0`, `opt`.`name` AS `t1_c1`, `opt`.`description` AS `t1_c2`, `opt`.`group` AS `t1_c3`, `opt`.`cost` AS `t1_c4` FROM `question_option` `opt`  LEFT OUTER JOIN `summary_question_option` `activeOptions` ON (`activeOptions`.`id`=`opt`.`option`) WHERE (`activeOptions`.`question`=:ypl0)' in C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(808): CDbCommand->queryAll()
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(509): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(163): CJoinElement->lazyFind(Object(QuestionModel))
+#4 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(281): CActiveFinder->lazyFind(Object(QuestionModel))
+#5 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('opt')
+#6 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(92): CActiveRecord->__get('opt')
+#7 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#8 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#9 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#13 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#14 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 19:16:29 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opt.option' in 'on clause'. Выполнявшийся SQL-запрос: SELECT `opt`.`id` AS `t1_c0`, `opt`.`name` AS `t1_c1`, `opt`.`description` AS `t1_c2`, `opt`.`group` AS `t1_c3`, `opt`.`cost` AS `t1_c4` FROM `question_option` `opt`  LEFT OUTER JOIN `summary_question_option` `activeOptions` ON (`activeOptions`.`id`=`opt`.`option`) WHERE (`activeOptions`.`question`=:ypl0).
+2015/09/06 19:16:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opt.option' in 'on clause'. The SQL statement executed was: SELECT `opt`.`id` AS `t1_c0`, `opt`.`name` AS `t1_c1`, `opt`.`description` AS `t1_c2`, `opt`.`group` AS `t1_c3`, `opt`.`cost` AS `t1_c4` FROM `question_option` `opt`  LEFT OUTER JOIN `summary_question_option` `activeOptions` ON (`activeOptions`.`id`=`opt`.`option`) WHERE (`activeOptions`.`question`=:ypl0)' in C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(808): CDbCommand->queryAll()
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(509): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(163): CJoinElement->lazyFind(Object(QuestionModel))
+#4 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(281): CActiveFinder->lazyFind(Object(QuestionModel))
+#5 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('opt')
+#6 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(92): CActiveRecord->__get('opt')
+#7 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#8 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#9 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#13 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#14 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 19:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 19:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 19:56:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 19:56:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:39:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:39:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:41:33 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "SummaryQuestionOption.cost".' in C:\OpenServer\domains\pravoved\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(145): CComponent->__get('cost')
+#1 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(94): CActiveRecord->__get('cost')
+#2 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#3 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#4 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#8 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#9 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#11 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 20:42:17 [error] [php] include(QuestionOption.php): failed to open stream: No such file or directory (C:\OpenServer\domains\pravoved\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(395): spl_autoload_call()
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(182): model()
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(230): CActiveFinder->getModel()
+#3 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#4 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(912): CActiveFinder->__construct()
+#5 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(280): SummaryQuestionOption->getActiveFinder()
+#6 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(143): SummaryQuestionOption->getRelated()
+#7 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(93): SummaryQuestionOption->__get()
+#8 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#9 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): QuestionController->runAction()
+#12 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): QuestionController->runActionWithFilters()
+#13 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): QuestionController->run()
+#14 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\OpenServer\domains\pravoved\index.php(11): CWebApplication->run()
+REQUEST_URI=/question/add
+2015/09/06 20:42:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:42:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:42:36 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opt.option' in 'where clause'. Выполнявшийся SQL-запрос: SELECT `opt`.`id` AS `t1_c0`, `opt`.`name` AS `t1_c1`, `opt`.`description` AS `t1_c2`, `opt`.`group` AS `t1_c3`, `opt`.`cost` AS `t1_c4` FROM `question_option` `opt`  WHERE (`opt`.`option`=:ypl0).
+2015/09/06 20:42:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opt.option' in 'where clause'. The SQL statement executed was: SELECT `opt`.`id` AS `t1_c0`, `opt`.`name` AS `t1_c1`, `opt`.`description` AS `t1_c2`, `opt`.`group` AS `t1_c3`, `opt`.`cost` AS `t1_c4` FROM `question_option` `opt`  WHERE (`opt`.`option`=:ypl0)' in C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(808): CDbCommand->queryAll()
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(509): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(163): CJoinElement->lazyFind(Object(SummaryQuestionOption))
+#4 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(281): CActiveFinder->lazyFind(Object(SummaryQuestionOption))
+#5 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('opt')
+#6 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(93): CActiveRecord->__get('opt')
+#7 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#8 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#9 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#13 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#14 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 20:42:58 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "SummaryQuestionOption.opt".' in C:\OpenServer\domains\pravoved\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(145): CComponent->__get('opt')
+#1 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(93): CActiveRecord->__get('opt')
+#2 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#3 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#4 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#8 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#9 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#11 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 20:43:10 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opts.option' in 'where clause'. Выполнявшийся SQL-запрос: SELECT `opts`.`id` AS `t1_c0`, `opts`.`name` AS `t1_c1`, `opts`.`description` AS `t1_c2`, `opts`.`group` AS `t1_c3`, `opts`.`cost` AS `t1_c4` FROM `question_option` `opts`  WHERE (`opts`.`option`=:ypl0).
+2015/09/06 20:43:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opts.option' in 'where clause'. The SQL statement executed was: SELECT `opts`.`id` AS `t1_c0`, `opts`.`name` AS `t1_c1`, `opts`.`description` AS `t1_c2`, `opts`.`group` AS `t1_c3`, `opts`.`cost` AS `t1_c4` FROM `question_option` `opts`  WHERE (`opts`.`option`=:ypl0)' in C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(808): CDbCommand->queryAll()
+#2 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(509): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveFinder.php(163): CJoinElement->lazyFind(Object(SummaryQuestionOption))
+#4 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(281): CActiveFinder->lazyFind(Object(SummaryQuestionOption))
+#5 C:\OpenServer\domains\pravoved\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('opts')
+#6 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(93): CActiveRecord->__get('opts')
+#7 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(14): QuestionModel->getCost()
+#8 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionAdd()
+#9 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('add')
+#13 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/add')
+#14 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/question/add
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 20:46:00 [warning] [application] Не удалось присвоить небезопасный атрибут "options" класса "QuestionModel".
+2015/09/06 20:46:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:46:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:50:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:50:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:51:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:51:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:51:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:51:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:53:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:53:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:54:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 20:54:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:01:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:01:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:01:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "qustion/list".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('qustion/list')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/qustion/list
+HTTP_REFERER=http://pravoved/cabinet
+---
+2015/09/06 21:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:12:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:12:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:13:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:13:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:13:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:13:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:14:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:14:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:30:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:30:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:31:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:31:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:31:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in C:\OpenServer\domains\pravoved\framework\web\CController.php:336
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('pay')
+#4 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/pay')
+#5 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#7 {main}
+REQUEST_URI=/question/pay?0%5Bid%5D=1
+HTTP_REFERER=http://pravoved/question/list
+---
+2015/09/06 21:31:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:31:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:32:15 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in C:\OpenServer\domains\pravoved\framework\web\CController.php:336
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('pay')
+#4 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/pay')
+#5 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#7 {main}
+REQUEST_URI=/question/pay?0%5Bq_id%5D=1
+HTTP_REFERER=http://pravoved/question/list
+---
+2015/09/06 21:32:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:32:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:40:12 [error] [php] trim() expects parameter 1 to be string, array given (C:\OpenServer\domains\pravoved\framework\web\CUrlManager.php:297)
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(564): CWebApplication->createUrl()
+#1 C:\OpenServer\domains\pravoved\protected\models\QuestionModel.php(124): CWebApplication->createAbsoluteUrl()
+#2 C:\OpenServer\domains\pravoved\protected\views\question\list.php(9): QuestionModel->getStatus()
+#3 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(126): require()
+#4 C:\OpenServer\domains\pravoved\framework\web\CBaseController.php(95): QuestionController->renderInternal()
+#5 C:\OpenServer\domains\pravoved\framework\web\CController.php(869): QuestionController->renderFile()
+#6 C:\OpenServer\domains\pravoved\framework\web\CController.php(782): QuestionController->renderPartial()
+#7 C:\OpenServer\domains\pravoved\protected\controllers\QuestionController.php(28): QuestionController->render()
+#8 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): QuestionController->actionList()
+#9 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): QuestionController->runAction()
+#11 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): QuestionController->runActionWithFilters()
+#12 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): QuestionController->run()
+#13 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\OpenServer\domains\pravoved\index.php(11): CWebApplication->run()
+REQUEST_URI=/question/list
+2015/09/06 21:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:40:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:40:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:41:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:41:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:41:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:41:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:42:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:42:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:43:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:43:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:44:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:44:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:45:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:45:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:45:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:47:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:47:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:47:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:47:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:47:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:47:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:54:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 21:54:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:16:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:16:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:16:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "list".' in C:\OpenServer\domains\pravoved\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CController.php(270): CController->missingAction('list')
+#1 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('list')
+#2 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('site/list')
+#3 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/list
+HTTP_REFERER=http://pravoved/question/list
+---
+2015/09/06 22:16:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:16:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:17:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "list".' in C:\OpenServer\domains\pravoved\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CController.php(270): CController->missingAction('list')
+#1 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('list')
+#2 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('site/list')
+#3 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/list
+HTTP_REFERER=http://pravoved/question/list
+---
+2015/09/06 22:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:17:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "lists".' in C:\OpenServer\domains\pravoved\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CController.php(270): CController->missingAction('lists')
+#1 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('lists')
+#2 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('site/lists')
+#3 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/lists
+HTTP_REFERER=http://pravoved/site/list
+---
+2015/09/06 22:17:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:17:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:17:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "lists".' in C:\OpenServer\domains\pravoved\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CController.php(270): CController->missingAction('lists')
+#1 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('lists')
+#2 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('site/lists')
+#3 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/lists
+HTTP_REFERER=http://pravoved/site/list
+---
+2015/09/06 22:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:17:51 [error] [php] Invalid argument supplied for foreach() (C:\OpenServer\domains\pravoved\protected\views\site\jlist.php:2)
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\OpenServer\domains\pravoved\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\OpenServer\domains\pravoved\protected\controllers\SiteController.php(18): SiteController->render()
+#3 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): SiteController->actionJurist()
+#4 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\pravoved\index.php(11): CWebApplication->run()
+REQUEST_URI=/site/jurist
+2015/09/06 22:17:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:17:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:18:27 [error] [php] Invalid argument supplied for foreach() (C:\OpenServer\domains\pravoved\protected\views\site\jlist.php:2)
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\OpenServer\domains\pravoved\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\OpenServer\domains\pravoved\protected\controllers\SiteController.php(18): SiteController->render()
+#3 C:\OpenServer\domains\pravoved\framework\web\actions\CInlineAction.php(49): SiteController->actionJurist()
+#4 C:\OpenServer\domains\pravoved\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\pravoved\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\OpenServer\domains\pravoved\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\pravoved\index.php(11): CWebApplication->run()
+REQUEST_URI=/site/jurist
+2015/09/06 22:18:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:18:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:19:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:19:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:20:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:20:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "questions".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('questions')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/questions/
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 22:22:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:22:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:25:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "questions".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('questions')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/questions/
+HTTP_REFERER=http://pravoved/question/add
+---
+2015/09/06 22:25:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:25:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:25:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index".' in C:\OpenServer\domains\pravoved\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question')
+#3 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/question
+HTTP_REFERER=http://pravoved/questions/
+---
+2015/09/06 22:25:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:25:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:34:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:34:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:36:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "view".' in C:\OpenServer\domains\pravoved\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('question/view')
+#3 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/question/view?id=5
+HTTP_REFERER=http://pravoved/question
+---
+2015/09/06 22:36:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:36:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:37:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:37:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:39:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:39:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:49:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:49:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:50:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:50:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:50:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:56:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 22:56:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 23:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 23:07:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 23:07:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 23:07:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 23:08:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "markup/goroda/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('markup/goroda/s...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/markup/goroda/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---
+2015/09/06 23:08:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/sprite.png".' in C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\pravoved\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sprite.p...')
+#1 C:\OpenServer\domains\pravoved\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\pravoved\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sprite.png
+HTTP_REFERER=http://pravoved/css/main.css
+---

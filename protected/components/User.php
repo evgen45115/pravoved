@@ -42,9 +42,15 @@ class User extends CWebUser{
 	return Yii::app()->session['otchestvo'] = $otchestvo;
     }
     
-    public function getBalance(){}
+    public function getBalance(){
+	return 0;
+    }
     
-    public function getBlockBalance(){}
+    public function getBlockBalance(){
+	return 0;
+    }
     
-    public function getBalanceInter(){}
+    public function getBalanceInter(){
+	return 0;
+    }
 }

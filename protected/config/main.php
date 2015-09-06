@@ -35,8 +35,7 @@ return array(
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
-			'charset' => 'utf8',
-			'tablePrefix' => 'tbl_',
+			'charset' => 'utf8'
 		),
 
 		'errorHandler'=>array(
@@ -44,6 +43,7 @@ return array(
 		),
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+			'showScriptName'=>FALSE,
 			'rules'=>array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
